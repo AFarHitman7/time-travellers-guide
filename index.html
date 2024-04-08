@@ -3,262 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rafan Hatim</title>
+    <title>A Time Traveller's guide</title>
     <link rel="stylesheet" href="./style.css" class="style">
     <link rel="stylesheet" href="./mediaqueries.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body>
-    <nav id="desktop-nav">
-        <div class="logo">A Time Traveller's Guide</div>
-        <div>
-            <ul class="nav-links">
-                <li><a href="#about">Choose your year</a></li>
-                <li><a href="#experience">Basic Guide</a></li>
+  <nav id="desktop-nav">
+    <div class="logo"><a href="index.html">A Time Traveller's Guide</a></div>
+    <div>
+        <ul class="nav-links">
+            <li><a href="year.html">Choose your year</a></li>
+            <li><a href="Guide.html">Basic Guide</a></li>
 
-            </ul>
-        </div>
-    </nav>
+        </ul>
+    </div>
+  </nav>
 
-    <nav id="ham-nav">
-        <div class="logo">A Time Traveller's Guide</div>
-        <div class="ham-menu">
-            <div class="ham-icon" onclick="toggleMenu()">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="menu-links">
-                <li><a href="#about" onclick="toggleMenu()">Year</a></li>
-                <li><a href="#experience" onclick="toggleMenu()">Guide</a></li>                
-            </div>
-        </div>
-    </nav>
+  <nav id="ham-nav">
+      <div class="logo"><a href="index.html">A Time Traveller's Guide</a></div>
+      <div class="ham-menu">
+          <div class="ham-icon" onclick="toggleMenu()">
+              <span></span>
+              <span></span>
+              <span></span>
+          </div>
+          <div class="menu-links">
+              <li><a href="year.html" onclick="toggleMenu()">Year</a></li>
+              <li><a href="Guide.html" onclick="toggleMenu()">Guide</a></li>                
+          </div>
+      </div>
+  </nav>
 
     <section id="profile">
       <div class="section__pic-container">
         <img src="./assets/bg_image1.jpg" class="profile_pic">
     </div>
-        <div class="section-text">
-            <p class="section_text_p1">YOU ARE INVITED</p>
-            <h1 class="title">Stephen Hawking's Party</h1>
-            <p class="section_text_p2">Happening now at June 28, 2009</p>
-
-            <div class="btn-container">
-                <button class="btn btn-color-2" onclick="location.href='./#contact'">
-                    Know More
-                </button>
-            </div>
-        </div>
-    </section>
-
-    <section id="about">
-        <p class="section_text_p1">Get to know more</p>
-        <h1 class="title">About Me</h1>
+    <div class="section-text">
+      <p class="section_text_p1">A fun parody website made for time Travellers</p>
+        <h1 class="title">A Time Traveller's Guide</h1>
         <div class="section-container">
-            <div class="section__pic-container">
-                <img src="./assets/image_rafan.png" 
-                     alt="Rafan Hatim" 
-                     class="about-pic">
-            </div>
+            
             <div class="about-details-container">
-                <div class="about-container">
-                    <div class="details-container">
-                        <img src="./assets/experience.png" 
-                        alt="experience icon"
-                        class="icon">
-                        <h3>Experience</h3>
-                        <p>Nothing Yet Im working on it</p>
-                    </div>
-                    <div class="details-container">
-                        <img src="./assets/education.png" 
-                        alt="education icon"
-                        class="icon">
-                        <h3>Education</h3>
-                        <p>Bachelor in Technology IT</p>
-                    </div>
+                <div class="text-container t2">
+                  <p>This is a website made as a fun project for Innov8 Hackathon, the idea behind the website is a referance for writers, historians and science-fiction lovers. Use this website to know major and minor events of any year, century or date.</p>
                 </div>
-                <div class="text-container">
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis reprehenderit et laborum, rem, dolore eum quod voluptate exercitationem nobis, nihil esse debitis maxime facere minus sint delectus velit in eos quo officiis explicabo deleniti dignissimos. Eligendi illum libero dolorum cum laboriosam corrupti quidem, reiciendis ea magnam? Nulla, impedit fuga! </p>
-                </div>
-            </div>
-        </div>
-        <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#experience'"
-      />
+              </div>
+          </div>
+      </div>
+        
     </section>
+    <section id="about">
+      <div class="section-text">
+        <p class="section_text_p1">YOU ARE INVITED</p>
+        <h1 class="title">Stephen Hawking's Party</h1>
+        <p class="section_text_p2">Happening now at June 28, 2009</p>
 
-    <section id="experience">
-        <p class="section_text_p1">Explore my</p>
-        <h1 class="title">Experience</h1>
-        <div class="experience-details-container">
-            <div class="about-container">
-                <div class="details-container">
-                    <h2 class="experience-sub-title">Frontend Development</h2>
-                    <div class="article-container">
-                        <article>
-                            <img
-                              src="./assets/checkmark.png"
-                              alt="Experience icon"
-                              class="icon"
-                            />
-                            <div>
-                              <h3>HTML</h3>
-                              <p>Experienced</p>
-                            </div>
-                          </article>
-                          <article>
-                            <img
-                              src="./assets/checkmark.png"
-                              alt="Experience icon"
-                              class="icon"
-                            />
-                            <div>
-                              <h3>CSS</h3>
-                              <p>Experienced</p>
-                            </div>
-                          </article>
-                          <article>
-                            <img
-                              src="./assets/checkmark.png"
-                              alt="Experience icon"
-                              class="icon"
-                            />
-                            <div>
-                              <h3>SASS</h3>
-                              <p>Experienced</p>
-                            </div>
-                          </article>
-                          <article>
-                            <img
-                              src="./assets/checkmark.png"
-                              alt="Experience icon"
-                              class="icon"
-                            />
-                            <div>
-                              <h3>JavaScript</h3>
-                              <p>Experienced</p>
-                            </div>
-                          </article>
-                          <article>
-                            <img
-                              src="./assets/checkmark.png"
-                              alt="Experience icon"
-                              class="icon"
-                            />
-                            <div>
-                              <h3>HTML</h3>
-                              <p>Experienced</p>
-                            </div>
-                          </article>
-                          <article>
-                            <img
-                              src="./assets/checkmark.png"
-                              alt="Experience icon"
-                              class="icon"
-                            />
-                            <div>
-                              <h3>HTML</h3>
-                              <p>Experienced</p>
-                            </div>
-                          </article>
-                    </div>
-                </div>
-                <div class="details-container">
-                    <h2 class="experience-sub-title">Frontend Development</h2>
-                    <div class="article-container">
-                        <article>
-                            <img
-                              src="./assets/checkmark.png"
-                              alt="Experience icon"
-                              class="icon"
-                            />
-                            <div>
-                              <h3>HTML</h3>
-                              <p>Experienced</p>
-                            </div>
-                          </article>
-                          <article>
-                            <img
-                              src="./assets/checkmark.png"
-                              alt="Experience icon"
-                              class="icon"
-                            />
-                            <div>
-                              <h3>HTML</h3>
-                              <p>Experienced</p>
-                            </div>
-                          </article>
-                          <article>
-                            <img
-                              src="./assets/checkmark.png"
-                              alt="Experience icon"
-                              class="icon"
-                            />
-                            <div>
-                              <h3>HTML</h3>
-                              <p>Experienced</p>
-                            </div>
-                          </article>
-                          <article>
-                            <img
-                              src="./assets/checkmark.png"
-                              alt="Experience icon"
-                              class="icon"
-                            />
-                            <div>
-                              <h3>HTML</h3>
-                              <p>Experienced</p>
-                            </div>
-                          </article>
-                          <article>
-                            <img
-                              src="./assets/checkmark.png"
-                              alt="Experience icon"
-                              class="icon"
-                            />
-                            <div>
-                              <h3>HTML</h3>
-                              <p>Experienced</p>
-                            </div>
-                          </article>
-                          <article>
-                            <img
-                              src="./assets/checkmark.png"
-                              alt="Experience icon"
-                              class="icon"
-                            />
-                            <div>
-                              <h3>HTML</h3>
-                              <p>Experienced</p>
-                            </div>
-                          </article>
-                    </div>
-                </div>  
-            </div>
+        <div class="btn-container">
+            <button class="btn btn-color-2" onclick="location.href='stephen.html'">
+                Know More
+            </button>
         </div>
-        <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#projects'"
-      />
-    </section>
+    </div>
+  </section>
     
     <footer>
       <nav>
         <div class="nav-links-container">
           <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="year.html">Choose your year</a></li>
+            <li><a href="Guide.html">Basic Guide</a></li>
           </ul>
         </div>
       </nav>
-      <p class="no-mouse">Copyright &#169; 2023 Rafan Hatim. All Rights Reserved.</p>
+      <p class="no-mouse">Copyright &#169; 2024 Init to win it. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
 </body>
