@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Time Traveller's guide</title>
+    <link rel="stylesheet" href="./style.css" class="style">
+    <link rel="stylesheet" href="./mediaqueries.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+  <nav id="desktop-nav">
+    <div class="logo"><a href="index.html">A Time Traveller's Guide</a></div>
+    <div>
+        <ul class="nav-links">
+            <li><a href="year.html">Choose your year</a></li>
+            <li><a href="Guide.html">Basic Guide</a></li>
+
+        </ul>
+    </div>
+  </nav>
+
+  <nav id="ham-nav">
+      <div class="logo"><a href="index.html">A Time Traveller's Guide</a></div>
+      <div class="ham-menu">
+          <div class="ham-icon" onclick="toggleMenu()">
+              <span></span>
+              <span></span>
+              <span></span>
+          </div>
+          <div class="menu-links">
+              <li><a href="year.html" onclick="toggleMenu()">Year</a></li>
+              <li><a href="Guide.html" onclick="toggleMenu()">Guide</a></li>                
+          </div>
+      </div>
+  </nav>
+    <section id="about">
+        <p class="section_text_p1">You are in 2024 A.D.</p>
+        <h1 class="title">Choose your year</h1>
+        <div class="section-container">
+            
+            <div class="about-details-container">
+                <div class="text-container">
+                  <p>Select the year you are travelling to, make sure to do your research and know the dangers of time travelling! Happy Journey</p>
+                </div>
+                <div class="select_op">
+                  <select id="select_year" class="select_b" onchange="showDiv('year-op', this)">
+                      <option selected>Select</option>
+                      <option value="0">2024 A.D.</option>
+                      <option value="1">1969 A.D.</option>
+                      <option value="2">4000 B.C.</option>
+                  </select>
+                </div>
+                <div id="0" class="2024 hidden">
+                  <div class="text-container">
+                    <p>This is the year 2024 AD, where elections are happening throughout the world.
+                      <br><br>At the start of 2020, Covid-19 started spreading throughout the world. Understand the effects of lockdowns, quarantines, and social distancing measures on daily life, businesses, schools, and public spaces.Observe the rapid pace of scientific research, vaccine development, and clinical trials aimed at combating the virus and developing effective treatments.
+                        <div class="img_cont">
+                          <div class="sub">
+                            <img src="./assets/covid.jpg" class="year-img3" alt="">
+                          </div>
+                        </div> 
+                      <br><br>
+                      Artificial Intelligence started advancing during 2023, Explore how ChatGPT and Devin continue to evolve and improve in the future, with advancements in areas like natural language understanding, personalized recommendations, andBy experiencing these stages of evolution in ChatGPT and Devin, a time traveler can gain insights into how AI has progressed over time, becoming more capable, accessible, and integrated into our daily lives. multi-modal interactions.
+                      <div class="img_cont">
+                            <div class="sub">
+                              <img src="./assets/ai.jpg" class="year-img3" alt="">
+                            </div>
+                          </div>
+                    </p>  
+                  </div>
+                </div>
+                <div id="2" class="4000 hidden">
+                  <div class="text-container">
+                    <p>This is the year 4000 BCE
+                    <br><br>A place where Ancient Civilisation grew and humans developed exponentially.
+                    <br>Understand its key characteristics, including geography, culture, architecture, and historical context.
+                    </p>
+                  </div>
+                  <div class="img_cont">
+                    <div class="sub">
+                      <img src="./assets/egypt.jpg" class="year-img" alt="">
+                      <p>Egyptian Civilisation</p>
+                  </div>
+                  <div class="sub">
+                    <img src="./assets/meso.jpg" class="year-img" alt="">
+                    <p>Mesopotamian Civilisation</p>
+                </div>
+                <div class="sub">
+                  <img src="./assets/indus.jpg" class="year-img" alt="">
+                  <p>Indus Valley Civilisation</p>
+              </div>
+              <div class="sub">
+                <img src="./assets/greek.jpg" class="year-img" alt="">
+                <p>Ancient Greece</p>
+            </div>
+                    
+                  </div>
+                </div>
+                <div id="1" class="1969 hidden">
+                  <div class="text-container">
+                    <p>This is the year 1969 AD 
+                      <br><br>The Apollo 11 mission comprised three astronauts:Neil Armstrong, Buzz Aldrin,Michael Collins.
+                      <br> Launched from Kennedy Space Center's Launch Complex 39A on July 16, 1969, at 9:32 a.m. Eastern Daylight Time (EDT).
+                    </p>
+                    <div class="img_cont">
+                      <div class="sub">
+                        <img src="./assets/apollo.jpg" class="year-img2" alt="">
+                    </div>
+                    <div class="sub">
+                      <img src="./assets/moon.jpg" class="year-img2" alt="">
+                  </div>
+                  <div class="sub">
+                    <img src="./assets/lander.jpg" class="year-img2" alt="">
+                </div>
+                <div class="sub">
+                  <img src="./assets/launch.jpg" class="year-img2" alt="">
+              </div>
+                      
+                    </div> 
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="year.html">Choose your year</a></li>
+            <li><a href="Guide.html">Basic Guide</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p class="no-mouse">Copyright &#169; 2024 Init to win it. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

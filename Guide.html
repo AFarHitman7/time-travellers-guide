@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Time Traveller's guide</title>
+    <link rel="stylesheet" href="./style.css" class="style">
+    <link rel="stylesheet" href="./mediaqueries.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo"><a href="index.html">A Time Traveller's Guide</a></div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="year.html">Choose your year</a></li>
+                <li><a href="Guide.html">Basic Guide</a></li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="ham-nav">
+        <div class="logo"><a href="index.html">A Time Traveller's Guide</a></div>
+        <div class="ham-menu">
+            <div class="ham-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="year.html" onclick="toggleMenu()">Year</a></li>
+                <li><a href="Guide.html" onclick="toggleMenu()">Guide</a></li>                
+            </div>
+        </div>
+    </nav>
+    <section id="about">
+        <p class="section_text_p1">Cruising through time for the first time?</p>
+        <h1 class="title">A Guide to all Time Travellers</h1>
+        <div class="section-container">
+            
+            <div class="about-details-container">
+                <div class="text-container t4">
+                  <p>
+                    1. Respect the Prime Directive: Avoid interfering with historical events or altering the course of history. Observe the principle of non-interference to prevent unintended consequences and preserve the integrity of the timeline.
+                    <br><br>
+                    2. Equip Yourself: Gather essential supplies and equipment for your journey, including suitable clothing for different time periods, currency from various eras, communication devices, and tools for documenting your experiences.
+                    <br><br>
+                    3. Research Historical Context: Study the historical events, cultures, and customs of the time periods you plan to visit. Knowing the social and political landscape will help you blend in and avoid drawing unwanted attention.
+                    <br><br>
+                    4. Clothing and Disguise: Dressing appropriately for the time period is crucial to blend in and avoid drawing unwanted attention. This may involve acquiring or replicating clothing and accessories typical of the era. Additionally, adopting local customs and manners can help the traveler integrate into the society more seamlessly.
+                    <br><br>
+                    5. Return Journey: Plan a safe return journey to the present time, ensuring that all artifacts and knowledge acquired during the exploration are preserved and documented for future study.
+                    <br><br>
+                  </p>
+                </div>
+                
+                </div>
+            </div>
+        </div>
+    </section> 
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="year.html">Choose your year</a></li>
+            <li><a href="Guide.html">Basic Guide</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p class="no-mouse">Copyright &#169; 2024 Init to win it. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

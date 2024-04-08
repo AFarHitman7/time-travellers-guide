@@ -498,6 +498,7 @@ footer {
 
 .hidden{
     display: none;
+    width: 100%;
 }
 
 .t2{
@@ -514,4 +515,42 @@ footer {
     font-size: large;
     width: 60rem;
     text-align: justify;
+}
+
+.year-img{
+    height: 10rem;
+    width: 15rem;
+    border-radius: 2rem;
+}
+
+.year-img2{
+    height: 15rem;
+    width: 18rem;
+    border-radius: 2rem;
+}
+
+.year-img3{
+    height: 25rem;
+    width: 40rem;
+    border-radius: 2rem;
+}
+.year-img4{
+    height: 30rem;
+    width: 45rem;
+    border-radius: 2rem;
+}
+.img_cont{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+
+.sub{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    text-align: center; 
+    gap: 0.7rem; 
+    margin: 2rem 0.7rem;
+ 
 }

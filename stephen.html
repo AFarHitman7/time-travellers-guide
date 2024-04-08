@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Time Traveller's guide</title>
+    <link rel="stylesheet" href="./style.css" class="style">
+    <link rel="stylesheet" href="./mediaqueries.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo"><a href="index.html">A Time Traveller's Guide</a></div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="year.html">Choose your year</a></li>
+                <li><a href="Guide.html">Basic Guide</a></li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="ham-nav">
+        <div class="logo"><a href="index.html">A Time Traveller's Guide</a></div>
+        <div class="ham-menu">
+            <div class="ham-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="year.html" onclick="toggleMenu()">Year</a></li>
+                <li><a href="Guide.html" onclick="toggleMenu()">Guide</a></li>                
+            </div>
+        </div>
+    </nav>
+    <section id="about">
+        <p class="section_text_p1">Stephen hawking</p>
+        <h1 class="title">The party for all time</h1>
+        <div class="section-container">
+            
+            <div class="about-details-container">
+                <div class="img_cont">
+                    <div class="sub">
+                      <img src="./assets/party.jpg" class="year-img4" alt="">
+                    </div>
+                  </div>
+                <div class="text-container t3">
+                  <p> British astrophysicist Stephen Hawking hosted a party for time travelers in the University of Cambridge. The physicist arranged for balloons, champagne, and nibbles for his guests, but did not send out the invites until the following day, after the party was over.<br><br>
+
+                    The party was held at the Gonville and Caius College on Trinity Street at 12:00 UT on June 28, 2009. In preparing for the event, Hawking said he hoped that copies of the invite might survive for thousands of years, and that "one day someone living in the future will find the information and use a wormhole time machine to come back to my party, proving that time travel will one day be possible"
+                    
+                    <br><br>Hawking waited in the room for a few hours before leaving, and no visitors arrived. He regarded the event as "experimental evidence that time travel is not possible". </p>
+                </div>
+                
+                </div>
+            </div>
+        </div>
+    </section> 
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="year.html">Choose your year</a></li>
+            <li><a href="Guide.html">Basic Guide</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p class="no-mouse">Copyright &#169; 2024 Init to win it. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
